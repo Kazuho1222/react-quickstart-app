@@ -8,6 +8,7 @@ export default function Home() {
       <h1>Welcome to my app</h1>
       <MyButton />
       <AboutPage />
+      <img className="avatar" />
     </div>
   );
 }
