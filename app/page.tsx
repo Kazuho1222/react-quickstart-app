@@ -1,6 +1,7 @@
 import Image from "next/image";
 import MyButton from "./components/MyButton";
 import AboutPage from "./components/AboutPage";
+import Profile from "./components/Profile";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <MyButton />
       <AboutPage />
       <img className="avatar" />
+      <Profile />
     </div>
   );
 }
