@@ -1,19 +1,12 @@
-"use client"
+type MyButton = {
+  count: number,
+  onClick: (event: React.MouseEvent<HTMLElement, MouseEvent>) => void
+}
 
-import { useState } from "react";
-
-function MyButton() {
-  const [count, setCount] = useState(0);
-
-  function handleClick() {
-    setCount(count + 1);
-  }
-
+export default function MyButton({ count, onClick }: MyButton) {
   return (
-    <button onClick={handleClick}>
+    <button onClick={onClick}>
       Clicked {count} times
     </button>
   );
 }
-
-export default MyButton;
