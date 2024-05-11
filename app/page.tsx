@@ -8,11 +8,15 @@ export default function Home() {
   return (
     <div>
       <h1>Welcome to my app</h1>
-      <MyButton />
       <AboutPage />
       <img className="avatar" />
       <Profile />
       <ShoppingList />
+      <div>
+        <h1>Counters that update separately</h1>
+        <MyButton />
+        <MyButton />
+      </div>
     </div>
   );
 }
