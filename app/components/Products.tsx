@@ -1,4 +1,3 @@
-import { defaultMaxListeners } from "events";
 
 const products = [
   { title: "Cabbage", isFruit: false, id: 1 },
